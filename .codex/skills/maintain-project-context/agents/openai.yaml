@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Project Context"
+  short_description: "Keep README project context current."
+  default_prompt: "Update the README project knowledge base with current goals, stack, and LLM rules."
