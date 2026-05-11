@@ -7,3 +7,8 @@ TODO: Create the pipeline or pretraining runner that takes demo OMOP data from
 the dataset component, passes visits through the tokenizer, creates the
 ROP-Bert model instance, and tests the full model flow.
 """
+
+# Current integration point (tokenization only):
+# - Fit `OMOPMeasurementTokenizer` on the training split measurement rows.
+# - Save the tokenizer.
+# - Load the tokenizer to transform validation/test rows deterministically.

@@ -36,13 +36,17 @@ dataset/
 tokenizer/
   __init__.py
   med_tokenizer.py
+  omop_measurement_tokenizer.py
 model/
   __init__.py
-  configuration.py
   med_bert.py
 pipeline/
   __init__.py
   rop_bert_pipeline.py
+tests/
+  test_omop_measurement_tokenizer.py
+docs/
+  omop-measurement-tokenizer.md
 ```
 
-Current files are lightweight placeholders and scope notes until the real implementation exists.
+The measurement tokenizer is implemented; the remaining components are still lightweight placeholders until the end-to-end pipeline is wired up.
