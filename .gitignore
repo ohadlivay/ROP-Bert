@@ -1,6 +1,48 @@
 .venv/
 __pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local/private data
+dataset/raw/
+
+# Local MIMIC-OMOP checkout/downloads. This directory is a nested checkout plus
+# local Athena downloads, so keep it out of this repo and capture project-owned
+# runbooks/validation scripts under docs/ and sql/ instead.
+mimic-omop/
+mimic-omop/.git/
+mimic-omop/CommonDataModel/
+mimic-omop/extras/athena/
+mimic-omop/extras/extras/
+mimic-omop/extras/loinc/
+mimic-omop/mimic-omop.cfg
+mimic-omop/etl/Result/
+mimic-omop/docs/schemaspy-*/
+mimic-omop/docs/AchillesWeb/
+mimic-omop/**/*.pdf
+mimic-omop/**/*.jar
+
+# Data and generated database artifacts
 *.csv
+!docs/validation/
+!docs/validation/*.csv
+*.csv.gz
 *.parquet
 *.duckdb
+*.dump
+*.backup
+*.pgdump
+*.psql
+*.sql.gz
+*.tar
+pgdata/
+postgres-data/
+postgresql-data/
+
+# Local editor / OS noise
+.vscode/raw
 .DS_Store
+**/.DS_Store
