@@ -1,0 +1,9 @@
+table_name,total_row_count,has_person_id,unique_person_id_count,avg_rows_per_person,median_rows_per_person,min_rows_per_person,max_rows_per_person,p25_rows_per_person,p75_rows_per_person,source_file,warning
+person,46520,True,46520,1.0,1.0,1,1,1.0,1.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/person.parquet,
+visit_occurrence,58976,True,46520,1.267755803955288,1.0,1,42,1.0,1.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/visit_occurrence.parquet,
+measurement,365181104,True,46518,7850.318242400791,3177.5,7,778195,1482.25,7640.5,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/measurement.parquet,
+observation,6721040,True,46520,144.4763542562339,50.0,3,7309,11.0,148.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/observation.parquet,
+condition_occurrence,716595,True,46520,15.40401977644024,11.0,1,574,7.0,18.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/condition_occurrence.parquet,
+drug_exposure,24934751,True,44050,566.0556413166856,200.0,1,42224,83.0,497.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/drug_exposure.parquet,
+procedure_occurrence,1063525,True,45354,23.449420117299468,12.0,1,877,5.0,27.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/procedure_occurrence.parquet,
+death,14849,True,14849,1.0,1.0,1,1,1.0,1.0,/Users/razimreeh/Library/CloudStorage/GoogleDrive-razi.mreeh.rm@gmail.com/My Drive/OMOP_exports/mimic_omop2/death.parquet,

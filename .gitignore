@@ -26,9 +26,12 @@ mimic-omop/**/*.pdf
 mimic-omop/**/*.jar
 
 # Data and generated database artifacts
+OMOP_exports/
 *.csv
 !docs/validation/
 !docs/validation/*.csv
+!docs/eda_01_table_summary.csv
+!docs/mimic_omop2_inventory.csv
 *.csv.gz
 *.parquet
 *.duckdb
@@ -41,6 +44,20 @@ mimic-omop/**/*.jar
 pgdata/
 postgres-data/
 postgresql-data/
+tokenizer_tests/large_check_outputs/
+tmp/
+temp/
+*.tmp
+*.temp
+patient_exports/
+patient_level_exports/
+exported_patient_data/
+*patient_level*.csv
+*patient_level*.csv.gz
+*patient_level*.parquet
+*patient_export*.csv
+*patient_export*.csv.gz
+*patient_export*.parquet
 
 # Local editor / OS noise
 .vscode/raw
